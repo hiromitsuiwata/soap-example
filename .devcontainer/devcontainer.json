@@ -1,0 +1,17 @@
+{
+	"name": "Maven Java 8",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"vscjava.vscode-java-pack",
+		"redhat.fabric8-analytics",
+		"dotjoshjohnson.xml"
+	],
+
+	"remoteUser": "vscode",
+	"workspaceMount": "source=/mnt/c/github/soap-example,target=/workspace,type=bind,consistency=delegated",
+    "workspaceFolder": "/workspace"
+}
