@@ -30,14 +30,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SayHello }
-     * 
-     */
-    public SayHello createSayHello() {
-        return new SayHello();
-    }
-
-    /**
      * Create an instance of {@link HelloWorldResponse }
      * 
      */
@@ -52,13 +44,4 @@ public class ObjectFactory {
     public HelloWorld createHelloWorld() {
         return new HelloWorld();
     }
-
-    /**
-     * Create an instance of {@link SayHelloResponse }
-     * 
-     */
-    public SayHelloResponse createSayHelloResponse() {
-        return new SayHelloResponse();
-    }
-
 }

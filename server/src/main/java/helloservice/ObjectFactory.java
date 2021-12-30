@@ -44,21 +44,4 @@ public class ObjectFactory {
     public HelloWorldResponse createHelloWorldResponse() {
         return new HelloWorldResponse();
     }
-
-    /**
-     * Create an instance of {@link SayHello }
-     * 
-     */
-    public SayHello createSayHello() {
-        return new SayHello();
-    }
-
-    /**
-     * Create an instance of {@link SayHelloResponse }
-     * 
-     */
-    public SayHelloResponse createSayHelloResponse() {
-        return new SayHelloResponse();
-    }
-
 }
